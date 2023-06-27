@@ -1,0 +1,53 @@
+Course Overview
+Welcome to this course on Practical Ethical Hacking. To enjoy this course, you need nothing but a positive attitude and a desire to learn. No prior hacking knowledge is required.
+
+In this course, you will learn the practical side of ethical hacking. Too many courses teach students tools and concepts that are never used in the real world. In this course, we will focus only on tools and topics that will make you successful as an ethical hacker. The course is incredibly hands on and will cover many foundational topics.
+
+Requirements:
+
+Basic IT knowledge
+For Mid-Course Capstone: A minimum of 12GB of RAM is suggested.
+For Wireless Hacking: A wireless adapter that supports monitor mode (links provided in course).
+For Active Directory Lab Build: A minimum of 16GB of RAM is suggested. Students can still participate in the course, but may experience slow lab environments.
+In this course, we will cover:
+
+ A Day in the Life of an Ethical Hacker. What does an ethical hacker do on a day to day basis? How much can he or she make? What type of assessments might an ethical hacker perform? These questions and more will be answered.
+ Effective Notekeeping. An ethical hacker is only as good as the notes he or she keeps. We will discuss the important tools you can use to keep notes and be successful in the course and in the field.
+ Networking Refresher. This section focuses on the concepts of computer networking. We will discuss common ports and protocols, the OSI model, subnetting, and even walk through a network build with using Cisco CLI.
+ Introductory Linux. Every good ethical hacker knows their way around Linux. This section will introduce you to the basics of Linux and ramp up into building out Bash scripts to automate tasks as the course develops.
+ Introductory Python. Most ethical hackers are proficient in a programming language. This section will introduce you to one of the most commonly used languages among ethical hackers, Python. You'll learn the ins and outs of Python 3 and by the end, you'll be building your own port scanner and writing exploits in Python.
+ Hacking Methodology. This section overviews the five stages of hacking, which we will dive deeper into as the course progresses.
+ Reconnaissance and Information Gathering. You'll learn how to dig up information on a client using open source intelligence. Better yet, you'll learn how to extract breached credentials from databases to perform credential stuffing attacks, hunt down subdomains during client engagements, and gather information with Burp Suite.
+ Scanning and Enumeration. One of the most important topics in ethical hacking is the art of enumeration. You'll learn how to hunt down open ports, research for potential vulnerabilities, and learn an assortment of tools needed to perform quality enumeration.
+ Exploitation Basics. Here, you'll exploit your first machine! We'll learn how to use Metasploit to gain access to machines, how to perform manual exploitation using coding, perform brute force and password spraying attacks, and much more.
+ Mid-Course Capstone. This section takes everything you have learned so far and challenges you with 10 vulnerable boxes that order in increasing difficulty. You'll learn how an attacker thinks and learn new tools and thought processes along the way. Do you have what it takes?
+ Exploit Development. This section discusses the topics of buffer overflows. You will manually write your own code to exploit a vulnerable program and dive deep into registers to understand how overflows work. This section includes custom script writing with Python 3.
+ Active Directory. Did you know that 95% of the Fortune 1000 companies run Active Directory in their environments? Due to this, Active Directory penetration testing is one of the most important topics you should learn and one of the least taught. The Active Directory portion of the course focuses on several topics. You will build out your own Active Directory lab and learn how to exploit it. Attacks include, but are not limited to: LLMNR poisoning, SMB relays, IPv6 DNS takeovers, pass-the-hash/pass-the-password, token impersonation, kerberoasting, GPP attacks, golden ticket attacks, and much more. You'll also learn important tools like mimikatz, Bloodhound, and PowerView. This is not a section to miss!
+ Post Exploitation. The fourth and fifth stages of ethical hacking are covered here. What do we do once we have exploited a machine? How do we transfer files? How do we pivot? What are the best practices for maintaining access and cleaning up?
+ Web Application Penetration Testing. In this section, we revisit the art of enumeration and are introduced to several new tools that will make the process easier. You will also learn how to automate these tools utilize Bash scripting. After the enumeration section, the course dives into the OWASP Top 10. We will discuss attacks and defenses for each of the top 10 and perform walkthroughs using vulnerable web applications. Topics include: SQL Injection, Broken Authentication, Sensitive Data Exposure, XML External Entities (XXE), Broken Access Control, Security Misconfigurations, Cross-Site Scripting (XSS), Insecure Deserialization, Using Components with Known Vulnerabilities, and Insufficient Logging and Monitoring
+ Wireless Attacks. Here, you will learn how to perform wireless attacks against WPA2 and compromise a wireless network in under 5 minutes.
+ Legal Documentation and Report Writing. A topic that is hardly ever covered, we will dive into the legal documents you may encounter as a penetration tester, including Statements of Work, Rules of Engagement, Non-Disclosure Agreements, and Master Service Agreements. We will also discuss report writing. You will be provided a sample report as well as walked through a report from an actual client assessment.
+ Career Advice. The course wraps up with career advice and tips for finding a job in the field.
+At the end of this course, you will have a deep understanding of external and internal network penetration testing, wireless penetration testing, and web application penetration testing. All lessons taught are from a real-world experience and what has been encountered on actual engagements in the field.
+
+ 
+
+ 
+
+Note: This course has been created for educational purposes only. All attacks shown were done so with given permission. Please do not attack a host unless you have permission to do so.
+
+ 
+
+ 
+
+Questions & Answers Team Availability and Rules
+
+The Q&A team responds to most questions within 2 business days. Specific Q&A rules are as follows:
+
+1. Please encourage each other and help each other out. The support team is here to help, but are not staffed 24/7.
+
+2. Support assistance will only be provided for course related material only. If you are using a tool or method in your labs that is not taught in the course, it is better asked in Discord on an appropriate channel outside of #course-chat.
+
+3. Avoid spoilers for the mid-course capstone. If you are assisting another user or asking a question related to this section, please try to not provide direct answers/solutions.
+
+4. Be kind to others and be patient. This field consists of patience, self-motivation, self-determination, and lots of Googling. Do not demand help or expect answers. That mindset will not take you far in your career. <3

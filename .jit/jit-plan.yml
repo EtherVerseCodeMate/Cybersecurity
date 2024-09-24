@@ -1,5 +1,6 @@
 name: My plan
 level: beginner
+update_id: 1d8d8ef5-5a1a-400f-b55b-540487057624
 author: Jit
 version: 0.1
 owners:
@@ -8,18 +9,17 @@ references:
   - https://www.jit.io
 tags: []
 items:
-  - name: |
-      Confirm your hosting model
-    uses: >-
-      jitsecurity-controls/jit-plans/items/partner_hosted/item-partner-hosting-model.yml@latest
+  - name: Scan your code for vulnerabilities (SAST)
+    uses: jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
+  - name: Confirm your hosting model
+
+    uses: jitsecurity-controls/jit-plans/items/partner_hosted/item-partner-hosting-model.yml@latest
     input:
-      note: |
-        No
+      note: 'No
+      
+        '
       requirements:
         '1':
-          status: failed
           note: 'No'
-  - name: Scan your code for vulnerabilities (SAST)
-    uses: >-
-      jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
-
+          status: failed
+      status: null
